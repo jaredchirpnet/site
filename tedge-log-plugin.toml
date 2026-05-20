@@ -1,0 +1,35 @@
+[[files]]
+type = "dpkg"
+path = "/var/log/dpkg.log"
+
+[[files]]
+type = "mosquitto"
+path = "/var/log/mosquitto/mosquitto.log"
+
+[[files]]
+type = "alternatives"
+path = "/var/log/alternatives.log"
+
+[[plugins.journald.filters]]
+include = "tedge-.*"
+
+[[plugins.journald.filters]]
+include = "sshd"
+
+[[plugins.journald.filters]]
+include = "systemd-logind"
+
+[[plugins.journald.filters]]
+include = "NetworkManager"
+
+[[plugins.journald.filters]]
+include = "systemd-networkd"
+
+[[plugins.journald.filters]]
+include = "kernel"
+
+[[plugins.journald.filters]]
+include = "auditd"
+
+[[plugins.journald.filters]]
+include = "mosquitto"
