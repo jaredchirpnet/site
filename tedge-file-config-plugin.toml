@@ -1,0 +1,31 @@
+[[files]]
+path = "/etc/collectd/collectd.conf"
+type = "collectd"
+
+[[files]]
+path = "/etc/tedge/tedge.toml"
+type = "tedge"
+
+[[files]]
+path = "/etc/mosquitto/mosquitto.conf"
+type = "mosquitto"
+
+[[files]]
+path = "/etc/tedge/mappers/thingsboard/mapper.toml"
+type = "thingsboard-mapper"
+
+[[files]]
+path = "/etc/tedge/plugins/tedge-log-plugin.toml"
+type = "tedge-log-plugin"
+
+[[files]]
+path = "/etc/tedge/plugins/tedge-file-config-plugin.toml"
+type = "tedge-configuration-plugin"
+
+[[files]]
+path = "/usr/gketema/router/log4j.xml"
+type = "router-log4j"
+
+[[files]]
+path = "/usr/gketema/router/application.properties"
+type = "router-application"
